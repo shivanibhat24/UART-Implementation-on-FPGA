@@ -3,7 +3,7 @@ module uart_tx #(
     // Clock frequency of FPGA
     parameter CLK_FREQ = 50000000,
     // UART baud rate
-    parameter BAUD_RAuTE = 115200
+    parameter BAUD_RATE = 115200
 )(
     // FPGA clock input
     input wire clk,
